@@ -195,7 +195,7 @@ header h1 {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid rgb(228, 219, 90);
+    border-bottom: 5px solid #0f101b;
 }
 
 .card-img {
@@ -247,7 +247,7 @@ header h1 {
 
 .card-g:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid rgb(90, 161, 228);
+    border-bottom: 5px solid #0f101b;
     font-size: 1.1em;
 }
 
