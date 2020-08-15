@@ -537,12 +537,12 @@ footer {
 }
 
  ::-webkit-scrollbar-thumb {
-    background: rgba(61, 102, 107, 0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
  ::selection {
-    background-color: #272727;
-    color: #f7f7f7;
+    background-color: #d1eefe;
+    color: #1e87f0;
 }
 
  ::moz-selection {
