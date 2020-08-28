@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 /*
 font-family: 'Rowdies', cursive;
@@ -133,7 +134,7 @@ header h1 {
 
 #escreva {
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     text-transform: uppercase;
     text-align: center;
@@ -458,6 +459,12 @@ footer {
     border-bottom: solid;
 }
 
+.contato,
+.sobre,
+.servicos {
+    min-height: 100vh;
+}
+
 @media screen and (max-width: 767px) {
     .card-container {
         display: flex;
@@ -582,14 +589,4 @@ footer {
 
  ::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.8);
-}
-
- ::selection {
-    background-color: #d1eefe;
-    color: #1e87f0;
-}
-
- ::moz-selection {
-    background-color: #d1eefe;
-    color: #1e87f0;
 }
