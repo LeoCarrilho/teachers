@@ -303,7 +303,7 @@ header h1 {
 .card-g:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 5px solid #161335;
-    font-size: 1.1em;
+    font-size: 1.06em;
 }
 
 .card-g:hover h4 {
