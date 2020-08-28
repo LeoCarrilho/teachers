@@ -155,16 +155,6 @@ header h1 {
     text-transform: uppercase;
 }
 
-.sobre {
-    height: 100vh;
-    margin-bottom: 50vh;
-}
-
-.servicos,
-.contato {
-    height: 100vh;
-}
-
 
 /*.section-content h2:nth-child(1n+2) {
     margin-top: 5%;
@@ -179,6 +169,50 @@ header h1 {
     color: rgb(58, 58, 58);
 }
 
+.l-box {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    position: relative;
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.l-box p {
+    float: left;
+    text-align: justify;
+    max-width: 65%;
+    margin: 0em 1em 0.5em 1.5em;
+}
+
+.l-box p a {
+    text-decoration: none;
+}
+
+.l-box h3 {
+    line-height: 3em;
+    margin-left: 1.5em;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.l-box-img {
+    position: absolute;
+    float: right;
+    top: 0;
+    right: 0;
+    background-image: url("../images/box-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 30%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
 .card-container {
     display: flex;
     align-items: center;
@@ -187,6 +221,7 @@ header h1 {
 }
 
 .card {
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 25%;
     min-height: 35vh;
@@ -195,6 +230,7 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0.5em;
     line-height: 1.2em;
+    border-radius: 5%;
 }
 
 .card p,
@@ -212,7 +248,7 @@ header h1 {
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid #0f101b;
+    border-bottom: 5px solid #161335;
 }
 
 .card-img {
@@ -235,6 +271,7 @@ header h1 {
 }
 
 .card-g {
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     min-width: 25%;
     height: 77vh;
@@ -243,6 +280,7 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0.5em;
     line-height: 1.2em;
+    border-radius: 0.6em;
 }
 
 .card-g ul {
@@ -264,7 +302,7 @@ header h1 {
 
 .card-g:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid #0f101b;
+    border-bottom: 5px solid #161335;
     font-size: 1.1em;
 }
 
@@ -273,15 +311,14 @@ header h1 {
 }
 
 .p-container {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .testimonial-card {
-    min-height: 400px;
-    width: 350px;
+    width: 400px;
+    height: 540px;
     margin: 1em 3em 1em 1em;
     background-color: white;
     border-radius: 10px;
@@ -296,6 +333,8 @@ header h1 {
     line-height: 1.7em;
     position: relative;
     font-size: 18px;
+    text-align: justify;
+    margin-bottom: 1.5em;
 }
 
 .image {
@@ -304,7 +343,7 @@ header h1 {
     width: 120px;
     border-radius: 50%;
     border: 5px solid white;
-    background: no-repeat center/cover url(../images/1.jpg);
+    background: no-repeat center/cover url(../images/1.jpeg);
     position: absolute;
     top: -50%;
     left: 50%;
@@ -319,7 +358,7 @@ header h1 {
     width: 120px;
     border-radius: 50%;
     border: 5px solid white;
-    background: no-repeat center/cover url(../images/2.jpg);
+    background: no-repeat center/cover url(../images/2.jpeg);
     position: absolute;
     top: -50%;
     left: 50%;
@@ -358,6 +397,15 @@ header h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.sobre,
+.servicos {
+    min-height: 100vh;
+}
+
+.contato {
+    min-height: 100vh;
+}
+
 .contact-container {
     display: flex;
     justify-content: center;
@@ -385,9 +433,10 @@ footer {
     background-color: rgb(12, 12, 12);
     position: absolute;
     width: 100%;
-    min-height: 20vh;
+    min-height: 10vh;
     color: white;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footermenu {

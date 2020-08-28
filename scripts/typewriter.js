@@ -8,4 +8,6 @@ function typeWritter(texto, idElemento, tempo) {
 }
 
 
-window.onload = typeWritter('Consultoria e Treinamentos', 'escreva', 100);
+
+
+document.getElementById("escreva").onload = typeWritter('Consultoria e Auditoria', 'escreva', 120);
