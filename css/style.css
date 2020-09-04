@@ -70,7 +70,9 @@ header h1 {
     color: white;
     z-index: 4;
     left: 5%;
-    top: 1em;
+    top: 0;
+    margin-bottom: 4em;
+    line-height: 0.5;
     font-family: 'Rowdies', cursive;
     text-transform: uppercase;
 }
@@ -132,6 +134,10 @@ header h1 {
     margin-top: 90vh;
 }
 
+.bg-section img {
+    filter: drop-shadow(3px 4px 1px #000000);
+}
+
 #escreva {
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -168,151 +174,6 @@ header h1 {
     font-size: x-large;
     text-transform: uppercase;
     color: rgb(58, 58, 58);
-}
-
-.l-box {
-    margin-top: 2em;
-    margin-bottom: 5em;
-    position: relative;
-    background-color: white;
-    height: 50vh;
-    width: 100%;
-    border-radius: 1em;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, .3);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.l-box p {
-    float: left;
-    text-align: justify;
-    max-width: 65%;
-    margin: 0em 1em 0.5em 1.5em;
-}
-
-.l-box p a {
-    text-decoration: none;
-}
-
-.l-box h3 {
-    line-height: 3em;
-    margin-left: 1.5em;
-    text-align: left;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.l-box-img {
-    position: absolute;
-    float: right;
-    top: 0;
-    right: 0;
-    background-image: url("../images/box-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 30%;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-
-.card-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-}
-
-.card {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 25%;
-    min-height: 35vh;
-    max-height: 60vh;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.5em;
-    line-height: 1.2em;
-    border-radius: 5%;
-}
-
-.card p,
-.card ul {
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1em;
-    line-height: 1.2em;
-}
-
-.card h4 {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid #161335;
-}
-
-.card-img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 25%;
-    min-height: 50vh;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 2em;
-}
-
-.card-img h4 {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-.card-img:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid rgb(71, 211, 146);
-}
-
-.card-g {
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    min-width: 25%;
-    height: 77vh;
-    max-height: 80vh;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0.5em;
-    line-height: 1.2em;
-    border-radius: 0.6em;
-}
-
-.card-g ul {
-    list-style: square;
-    text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1em;
-    line-height: 1.2em;
-}
-
-.card-g ul li {
-    line-height: 1.5em;
-}
-
-.card-g h4 {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-}
-
-.card-g:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    border-bottom: 5px solid #161335;
-    font-size: 1.06em;
-}
-
-.card-g:hover h4 {
-    color: rgb(67, 45, 107);
-}
-
-.container {
-    padding: 2px 16px;
 }
 
 .p-container {
@@ -427,7 +288,7 @@ header h1 {
 
 footer {
     background-color: rgb(12, 12, 12);
-    position: absolute;
+    bottom: 0;
     width: 100%;
     min-height: 10vh;
     color: white;

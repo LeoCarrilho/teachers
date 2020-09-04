@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3759d31372.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
 </head>
 <header>
     <div class="topbar">
@@ -36,6 +38,7 @@
 <body>
     <div class="bg-section">
         <div id="escreva"></div>
+        <img src="images/logo.png" alt="Teachers - Consultoria e auditoria" width="900px" height="500px">
         <span class="material-icons">
             keyboard_arrow_down
             </span>
@@ -43,120 +46,80 @@
     <div class="section-content">
         <div class="servicos" id="servicos">
             <h2>Serviços</h2>
-            <div class="card-container">
-                <div class="card-g">
-                    <div class="container">
-                        </br>
-                        <h4><b><span class="material-icons">
-                        calculate
-                        </span>  &nbsp; Contabilidade</b></h4>
-                        </br>
-                        <ul>
-                            <li>Abertura e encerramento de empresas</li>
-                            <li>Escrituração contábil e fiscal</li>
-                            <li>ECD, EFD e SPED</li>
-                            <li>Fechamento contábil</li>
-                            <li>Calculo de ponto de equilíbrio</li>
-                            <li>Gestão de custos</li>
-                            <li>Formação de preços</li>
-                            <li>Calculos de prazos médios de recebimento, pagamento e estoque</li>
-                            <li>Indices de liquidez e lucratividade</li>
-                            <li>Folha de Pagamento</li>
-                            <li>Serviços contábeis</li>
-                        </ul>
+            <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body ">
+                        <h3 class="uk-card-title">O que fazemos</h3>
+                        <p>A TEACHERS é uma consultoria contábil, financeira e fiscal idealizada por dois professores e especialistas na área que no decorrer de suas carreiras perceberam as dificuldades das empresas brasileiras em cumprir com todas as obrigações
+                            e impostos e além disso, cuidar do planejamento estratégico e tático de seus empreendimentos. Com experiência, expertise, olho no olho e ligação próxima aos clientes o diferencial da TEACHERS é o compromisso com a realidade
+                            e a integridade no fomento de negócios sustentáveis</p>
                     </div>
                 </div>
-                <div class="card-g">
-                    <div class="container">
-                        </br>
-                        <h4><b><span class="material-icons">
-                        attach_money
-                        </span>  &nbsp; Finanças</b></h4>
-                        </br>
-                        <ul>
-                            <li>Implantação e acompanhamento de fluxo de caixa</li>
-                            <li>Analise de viabilidade financeira (TIR, PAYBACK e VPL)</li>
-                            <li>Analise de investimentos</li>
-                            <li>Treinamentos</li>
-                            <li>Analise das demonstrações financeiras</li>
-                            <li>Calculo de ponto de equilíbrio</li>
-                            <li>Calculos de prazos médios de recebimento, pagamento e estoque</li>
-                            <li>Indices de liquidez e lucratividade</li>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body ">
+                        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+
+                            <li class="uk-nav-header">Nossos serviços</li>
+                            <li class="uk-nav-divider"></li>
+
+                            <li><a href="#"><span class="uk-margin-small-right" ></span> <span class="material-icons">
+                    calculate
+                    </span>  &nbsp; Contabilidade</a></li>
+                            <li><a href="#"><span class="uk-margin-small-right"></span> <span class="material-icons">
+                    attach_money
+                    </span>  &nbsp; Finanças</a></li>
+                            <li><a href="#"><span class="uk-margin-small-right" ></span> <span class="material-icons">
+                    school
+                    </span> &nbsp; Cursos</a></li>
+                            <li><a href="#"><span class="uk-margin-small-right" ></span> <span class="material-icons">
+                    search
+                    </span>&nbsp; Auditoria e Pericia</a></li>
+
                         </ul>
-                    </div>
-                </div>
-                <div class="card-g">
-                    <div class="container">
-                        </br>
-                        <h4><b> <span class="material-icons">
-                        school
-                        </span> &nbsp; Cursos</b></h4>
-                        </br>
-
-                        <ul>
-                            <li>Contas a pagar e receber</li>
-                            <li>Contabilidade</li>
-                            <li>Administração financeira</li>
-                            <li>Preparatorio para o CRC</li>
-                        </ul>
-
-                    </div>
-                </div>
-                <div class="card-g">
-                    <div class="container">
-                        </br>
-                        <h4><b> <span class="material-icons">
-                        search
-                        </span>&nbsp; Auditoria e Pericia</b></h4>
-                        </br>
-
-                        <ul>
-                            <li>Auditoria condominal</li>
-                            <li>Auditoria investigativa</li>
-                            <li>Pericia financeira e contabil</li>
-                        </ul>
-
                     </div>
                 </div>
             </div>
-            <div class="l-box">
-                <h3>Auditoria Fiscal</h3>
-                <p>Gostaria de saber se sua empresa está com situação regular perante aos órgãos fiscais nos últimos 5 anos? Acredita plenamente que não tem nenhuma pendencia de XML ou obrigações acessórias? Gostaria de resgatar um possível crédito fiscal
-                    não utilizado nos últimos anos? Sua empresa do primeiro ou terceiro setor precisa de certidões de regularidade para participar de projetos públicos ou licitações e gostaria de estar com tudo em dia? Nossa empresa de auditoria fiscal
-                    é capaz disso e muito mais... </br>Entrem em contato </br><a href="#link aqui">Saiba mais</a></p>
-                <div class="l-box-img"></div>
+
+            <div class="uk-card uk-card-default uk-border-radius uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-image-border-right ">
+                    <img src="images/box-bg.jpg" alt="" uk-cover>
+                    <canvas width="400" height="300"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Auditoria Fiscal</h3>
+                        <p>Gostaria de saber se sua empresa está com situação regular perante aos órgãos fiscais nos últimos 5 anos? Acredita plenamente que não tem nenhuma pendencia de XML ou obrigações acessórias? Gostaria de resgatar um possível crédito
+                            fiscal não utilizado nos últimos anos? Sua empresa do primeiro ou terceiro setor precisa de certidões de regularidade para participar de projetos públicos ou licitações e gostaria de estar com tudo em dia? Nossa empresa de
+                            auditoria fiscal é capaz disso e muito mais... </br>Entrem em contato </br><a href="#link aqui">Saiba mais</a></p>
+                    </div>
+                </div>
             </div>
         </div>
+
+
         <div class="sobre" id="sobre">
             <h2>Sobre</h2>
-
-            <div class="card-container">
-                <div class="card">
-                    <div class="container">
-                        </br>
-                        <h4><b><span class="material-icons">flag</span>  &nbsp; Missão</b></h4>
-                        </br>
-                        <p>Oferecer excelência de qualidade no âmbito empresarial, disseminando o conhecimento, comprometidos em oferecer serviços com confiabilidade, integridade e Inovação</p>
+            <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+                <div>
+                    <div class="uk-card uk-border-radius uk-card-default uk-card-hover uk-card-body ">
+                        <h3 class="uk-card-title"><span class="material-icons">flag</span> &nbsp; Missão</b>
+                        </h3>
+                        <p>Oferecer excelência de qualidade no âmbito empresarial, disseminando o conhecimento, comprometidos em oferecer serviços com confiabilidade, integridade e Inovação.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="container">
-                        </br>
-                        <h4><b><span class="material-icons">
-                        visibility
-                        </span>  &nbsp; Visão</b></h4>
-                        </br>
-                        <p>Ser uma empresa referencia na gestão contábil, financeira e fiscal e na gestão do conhecimento</p>
+                <div>
+                    <div class="uk-card uk-border-radius uk-card-default uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title"><span class="material-icons">
+                            visibility
+                            </span> &nbsp; Visão</h3>
+                        <p>Ser uma empresa referencia na gestão contábil, financeira e fiscal e na gestão do conhecimento.</p>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="container">
-                        </br>
-                        <h4><b> <span class="material-icons">
-                        grade
-                        </span> &nbsp; Valores</b></h4>
-                        </br>
-
+                <div>
+                    <div class="uk-card uk-border-radius uk-card-default uk-card-hover uk-card-body">
+                        <h3 class="uk-card-title"> <span class="material-icons">
+                            grade
+                            </span> &nbsp; Valores</h3>
                         <ul>
                             <li>Honestidade</li>
                             <li>Integridade</li>
@@ -170,6 +133,7 @@
                     </div>
                 </div>
             </div>
+
             <h3>Quem somos</h3>
 
             <div class="p-container">
@@ -222,10 +186,11 @@
             </div>
         </div>
     </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 <footer>
     <p style=margin-top:25px>© Teachers - 2020</p>
 </footer>
-<script src="scripts/typewriter.js"></script>
+<!--<script src="js/typewriter.js"></script>-->
 
 </html>
