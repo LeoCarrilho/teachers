@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
 
 /*
 font-family: 'Rowdies', cursive;
@@ -73,7 +75,7 @@ header h1 {
     top: 0;
     margin-bottom: 4em;
     line-height: 0.5;
-    font-family: 'Rowdies', cursive;
+    font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
 }
 
