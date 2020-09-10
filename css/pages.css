@@ -138,8 +138,8 @@ header h1 {
 }
 
 footer {
+    position: absolute;
     background-color: rgb(12, 12, 12);
-    bottom: 0;
     width: 100%;
     min-height: 10vh;
     color: white;
@@ -147,7 +147,14 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer p {
+    margin-top: 2em;
+}
+
 @media screen and (max-width: 767px) {
+    header h1 {
+        color: black;
+    }
     header .control-nav {
         position: absolute;
         right: 20px;
@@ -155,7 +162,7 @@ footer {
         display: block;
         width: 30px;
         padding: 5px 0;
-        border: solid rgb(255, 255, 255);
+        border: solid rgb(0, 0, 0);
         border-width: 3px 0;
         z-index: 5;
         cursor: pointer;
@@ -164,7 +171,7 @@ footer {
         content: "";
         display: block;
         height: 3px;
-        background: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
     }
     header .control-nav-close {
         position: fixed;

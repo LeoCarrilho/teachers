@@ -185,7 +185,7 @@ header h1 {
 }
 
 .testimonial-card {
-    width: 500px;
+    width: 400px;
     height: 540px;
     margin: 1em 3em 1em 1em;
     background-color: white;
@@ -289,17 +289,17 @@ header h1 {
 }
 
 footer {
+    position: absolute;
     background-color: rgb(12, 12, 12);
-    bottom: 0;
     width: 100%;
-    min-height: 10vh;
+    min-height: 5vh;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer p {
-    margin-top: 5px;
+    margin-top: 2em;
 }
 
 .footermenu {

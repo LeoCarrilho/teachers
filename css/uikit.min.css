@@ -2106,7 +2106,7 @@ select.uk-form-width-xsmall {
     border-bottom-right-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .uk-image-border-right {
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
